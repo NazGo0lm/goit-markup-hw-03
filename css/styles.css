@@ -191,12 +191,17 @@ body{
 .intro-container{
     padding: 188px 0;
 
+
 }
 
 
 
 .third-section-list{
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    gap: 24px;
+
 }
 
 .third-title{
@@ -206,6 +211,8 @@ body{
     letter-spacing: 0.02em;
     color: #2e2f42;
     background-color: #FFFFFF;
+    margin-bottom: 8px;
+    text-align: center;
 
 }
 
@@ -216,6 +223,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 .third-section-class{
@@ -231,6 +239,8 @@ body{
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
+    /**/
 }
 
 .third-section-ul{
@@ -261,10 +271,76 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding-bottom: 16px;
+    
     display: inline-block;
+    margin-bottom: 16px;
+    
 }
 
 .logo-span-footer{
     color: #f4f4fd;
+}
+
+
+/*STRATEGY SECTION*/
+.strategy-section{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    /* background-color: red; */
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.strategy-ul{
+    display: flex;
+    gap: 24px;
+}
+
+.strategy-li-element{
+    width: calc((100% -72px)/3);
+
+}
+
+.container-footer{
+    width:1158px;
+    padding-left:15px;
+    padding-right:15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.team-info{
+    padding: 32px 16px;
+}
+
+.portfolio-container{
+    padding: 120px 0;
+}
+
+.portfolio-ul-section{
+    display: flex;
+    row-gap: 24px;
+    column-gap: 48px;
+}
+
+.portfolio-el{
+    width: calc((100%-48px)/3);
+}
+
+.portfolio-container{
+    margin: 32px 0;
 }
