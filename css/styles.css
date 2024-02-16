@@ -12,6 +12,7 @@ ul,ol{
 
 a{
     text-decoration: none;
+    
 }
 
 button{
@@ -20,6 +21,7 @@ button{
 
 img{
     display:block;
+    width: 100%;
 }
 
 .container{
@@ -67,6 +69,7 @@ body{
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    display: inline-block;
 /*     margin-top:24px ;
     margin-bottom:24px ; */
 }
