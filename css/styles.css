@@ -12,7 +12,7 @@ ul,ol{
 
 a{
     text-decoration: none;
-    
+    display: inline-block;
     
 }
 
@@ -340,8 +340,8 @@ body{
 
 .portfolio-ul-section{
     display: flex;
-    row-gap: 48px;
-    column-gap: 24px;
+    row-gap: 24px;
+    column-gap: 48px;
     flex-wrap: wrap;
 }
 
