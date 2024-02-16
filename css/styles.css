@@ -274,13 +274,11 @@ body{
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
+    display: inline-block;
 
     
 }
 
-.logo-title-footer-inline{
-    display: inline-block;
-}
 
 .logo-span-footer{
     color: #f4f4fd;
@@ -357,6 +355,3 @@ body{
   
 }
 
-.portfolio-el{
-    width: calc((100% - 48px) / 3);
-}
