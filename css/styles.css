@@ -26,7 +26,7 @@ img{
 }
 
 .container{
-    display: flex;
+    
     width:1158px;
     padding-left:15px;
     padding-right:15px;
@@ -36,8 +36,14 @@ img{
 
 }
 
+.container-flex{
+    display: flex;
 
+}
 
+.container-intro{
+    
+}
 
 
 
@@ -128,6 +134,7 @@ body{
 .nav-adress{
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .contact-list{
@@ -146,7 +153,7 @@ body{
 
 .contact-ref{
     color: #434455;
-    padding: 24px 0;
+    
    
 }
 
@@ -171,6 +178,8 @@ body{
     text-align: center;
     color: #fff;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -189,6 +198,9 @@ body{
     border: none;
     border-radius: 4px;
     margin-top: 48px;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .primary-btn:hover,
@@ -252,6 +264,7 @@ body{
     background-color: #FFFFFF;
     display: flex;
     gap: 24px;
+    background-color:#f4f4fd ;
 
 }
 
@@ -268,6 +281,7 @@ body{
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    
 }
 
 .logo-title-footer{
@@ -328,6 +342,7 @@ body{
     padding-right:15px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 
